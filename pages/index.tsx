@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '@/styles/Home.module.scss';
 
 export default function Home() {
 	return (
@@ -21,7 +21,8 @@ export default function Home() {
 						<a
 							href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
 							target='_blank'
-							rel='noopener noreferrer'>
+							rel='noopener noreferrer'
+						>
 							By{' '}
 							<Image
 								src='/vercel.svg'
@@ -51,7 +52,8 @@ export default function Home() {
 						href='https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
 						className={styles.card}
 						target='_blank'
-						rel='noopener noreferrer'>
+						rel='noopener noreferrer'
+					>
 						<h2>
 							Docs <span>-&gt;</span>
 						</h2>
@@ -64,7 +66,8 @@ export default function Home() {
 						href='https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
 						className={styles.card}
 						target='_blank'
-						rel='noopener noreferrer'>
+						rel='noopener noreferrer'
+					>
 						<h2>
 							Learn <span>-&gt;</span>
 						</h2>
@@ -77,7 +80,8 @@ export default function Home() {
 						href='https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
 						className={styles.card}
 						target='_blank'
-						rel='noopener noreferrer'>
+						rel='noopener noreferrer'
+					>
 						<h2>
 							Templates <span>-&gt;</span>
 						</h2>
@@ -90,7 +94,8 @@ export default function Home() {
 						href='https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
 						className={styles.card}
 						target='_blank'
-						rel='noopener noreferrer'>
+						rel='noopener noreferrer'
+					>
 						<h2>
 							Deploy <span>-&gt;</span>
 						</h2>
@@ -102,5 +107,5 @@ export default function Home() {
 				</div>
 			</main>
 		</>
-	)
+	);
 }
